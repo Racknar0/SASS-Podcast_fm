@@ -1,0 +1,1 @@
+Proyecto creado usando las tecnologías HTML, SCC, BOOSTRAP, SASS realizando cambios en las variables, utilizando diferentes tipos de elementos como mixins de Boostrap, haciendo muchos tipos de modificaciones.
