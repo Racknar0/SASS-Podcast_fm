@@ -23,22 +23,22 @@
 
 ## <h3>📄 **:: Technologies used and resources used ::**</h3>
 <div style="display: flex; justify-content: start; align-items: center;">
-  <figure>
+  <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="https://github.com/Racknar0/logos/blob/master/coleccion-logos/html5.png?raw=true" alt="css3" width="80" height="80" />
     <figcaption style="text-align: center">HTML</figcaption>
   </figure>
 
-  <figure>
+  <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80" /> 
     <figcaption style="text-align: center">CSS</figcaption>
   </figure>
 
-  <figure>
+  <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img src="https://raw.githubusercontent.com/Racknar0/logos/181ca6311c2bd5811614e50fb29a6c713bc4575e/coleccion-logos/bootstrap/bootstrap-original.svg" alt="bootstrap" width="80" height="80" />
     <figcaption style="text-align: center">BOOTSTRAP</figcaption>
   </figure>
 
-  <figure>
+  <figure style="display: flex; flex-direction: column; justify-content: center; align-items: center">
     <img
       src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/sass.png" alt="sass" width="80"
       height="80" />
