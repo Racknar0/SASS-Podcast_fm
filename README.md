@@ -22,7 +22,6 @@
 <br>
 
 ## <h3>📄 **:: Technologies used and resources used ::**</h3>
-<div style="display: flex; justify-content: start; align-items: center;">
   <figure>
     <img src="https://github.com/Racknar0/logos/blob/master/coleccion-logos/html5.png?raw=true" alt="css3" width="80" height="80" />
     <figcaption style="text-align: center">HTML</figcaption>
@@ -51,7 +50,6 @@
       height="80" />
     <figcaption style="text-align: center">GULP</figcaption>
   </figure>
-</div>
 
 <br>
 
