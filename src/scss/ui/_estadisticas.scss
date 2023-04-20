@@ -1,0 +1,8 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+@use "../utils/mixins" as m; // importar mixins
+
+.estadisticas {
+    h2 {
+      @include m.headingBorder($secondary, $white);
+    }
+}

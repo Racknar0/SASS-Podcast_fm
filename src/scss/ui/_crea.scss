@@ -1,0 +1,10 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+@use "../utils/mixins" as m; // importar mixins
+
+.crea-podcast {
+    h2 {
+        @include m.headingBorder($secondary, $primary);
+    }
+    
+    
+}

@@ -1,0 +1,37 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+
+//mixin transparencia de la imagen de fondo
+@mixin bgImage ($url, $color){
+    background-image: linear-gradient( transparentize($color, .3%) 0% , transparentize($color, .3%) 100%), url($url) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+//mixin para icono de fondo
+@mixin bgIcono ($url) {
+    background-image: url($url);
+    background-size: 10rem;
+    background-position: 50% 2rem;
+    background-repeat: no-repeat;
+}
+
+//mixin heading con linea de fondo
+@mixin headingBorder($colorTexto, $colorLinea) {
+    color:$colorTexto;
+    display: inline-block;
+    margin-top: 5rem;
+    @include media-breakpoint-up(md){
+        margin-top: 0;
+    }
+
+    &::after {
+        content: '';
+        height: 1rem;
+        width: 100%;
+        background-color: $colorLinea;
+        display: block;
+        margin: -1.4rem 0 0 0;
+    }
+}
+

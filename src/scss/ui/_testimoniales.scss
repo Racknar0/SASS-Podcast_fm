@@ -1,0 +1,31 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+@use "../utils/mixins" as m; // importar mixins
+
+
+.heding-testimonial {
+
+    h2 {
+        @include m.headingBorder($secondary, $primary)
+    }
+}
+
+.testimonial {
+        border: 5px solid $secondary;
+        border-radius: 1rem;
+        font-size: 1.6rem;
+        padding: 2rem 2rem 2rem 6rem;
+        position: relative; //habilita posición absoluta en el hijo
+
+        &::before {
+            content: '';
+            width: 5rem;
+            height: 5rem;
+            display: block;
+            background-image: url(../img/comilla.svg);
+            background-size: 4rem;
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: absolute;
+            left: .5rem;
+        }
+}

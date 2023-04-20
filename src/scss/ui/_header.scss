@@ -1,0 +1,38 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+@use "../utils/mixins" as m; // importar mixins
+
+.site-header {
+  @include m.bgImage("../img/header.jpg", $secondary);
+
+  .logo {
+    max-width: 20rem;
+    margin: 0 auto;
+    @include media-breakpoint-up(md)
+    {
+        margin: 0;
+    }
+  }
+
+  .contenido {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    @include media-breakpoint-up(md) {
+      max-width: 50%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 15rem;
+      padding-bottom: 15rem;
+      max-width: 50%;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      color: $white;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 6rem;
+      }
+    }
+  }
+}

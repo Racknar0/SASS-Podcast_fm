@@ -1,0 +1,29 @@
+@use '../custom' as *;
+
+.btn-header {
+    // BG, Border, Texto, HOVER: BG, Border, Texto
+    @include button-variant($primary, transparent, $secondary, darken($primary, 10%), transparent,  darken($secondary, 10%));
+
+    //@mixin button-size($padding-y, $padding-x, $font-size, $border-radius)
+    @include button-size( 1rem, 5rem, 2rem, 0);
+
+    font-weight: 700;
+    text-decoration: none;
+
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+
+    @include media-breakpoint-up(md) {
+        display: inline-block;
+    }
+}
+
+//herencia
+.boton-plan {
+    @extend .btn-header;
+    border: 1px solid white;
+    @include media-breakpoint-up(md) {
+        display: block;
+    }
+}

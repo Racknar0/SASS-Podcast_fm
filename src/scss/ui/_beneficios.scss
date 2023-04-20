@@ -1,0 +1,17 @@
+@use "../custom" as *; //se importa el custom para que importe boostrap
+@use "../utils/mixins" as m; // importar mixins
+
+.beneficios {
+  h2 {
+    @include m.headingBorder($secondary, $white);
+  }
+
+  .imagen {
+    @include media-breakpoint-up(md) {
+      @include transition(transform 300ms ease);
+      &:hover {
+        transform: rotate(8deg) scale(1.1);
+      }
+    }
+  }
+}
