@@ -24,11 +24,15 @@
 
 ## <h3>📄 **:: Technologies used and resources used ::**</h3>
 
+<div style="display: flex; justify-content: start; align-items: center;">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80" /> 
 <img src="https://github.com/Racknar0/logos/blob/master/coleccion-logos/html5.png?raw=true" alt="css3" width="80" height="80" />
 <img src="https://raw.githubusercontent.com/Racknar0/logos/181ca6311c2bd5811614e50fb29a6c713bc4575e/coleccion-logos/bootstrap/bootstrap-original.svg" alt="bootstrap" width="80" height="80" />
 <img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/sass.png" alt="sass" width="80" height="80" />
 <img src="https://raw.githubusercontent.com/Racknar0/logos/181ca6311c2bd5811614e50fb29a6c713bc4575e/coleccion-logos/gulp/gulp-plain.svg" alt="sass" width="80" height="80" />
+</div>
+
+
 
 <br>
 
@@ -38,7 +42,7 @@
 *  [Sass](https://sass-lang.com/ 'Sass')
 
 <br>
-
+<br>
 
 ## <h3>🤖 **:: Aviable Commands ::**</h3>
 
